@@ -28,7 +28,9 @@ class TestHomePage(BaseClass):
         print(message)
         assert "Success" in message
         self.driver.refresh()
-
+        print("postJira1")  # 깃 실습용
+        print("postJira2")  # 깃 실습용
+        print("postJira3")  # 깃 실습용
 
     @pytest.fixture(params=HomePageData.test_Homepage_data)
     def getData(self, request):
