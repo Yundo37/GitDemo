@@ -23,12 +23,6 @@ class TestOne(BaseClass):
                 print("postJira2") # 깃 실습용
                 print("postJira3") # 깃 실습용
 
-                #
-                #
-                #
-                print("postJira4")  # 깃 실습용
-                print("postJira5")  # 깃 실습용
-                print("postJira3")  # 깃 실습용
                 break
 
         self.driver.find_element(By.CSS_SELECTOR, "a[class*=btn-primary]").click()
